@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Weather App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- BOOTSTRAP 5 CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="bg-dark">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="./index.html">Weather App</a>
+            </div>
+        </nav>
+    </header>
+    <section class="mb-3 py-5" id="hero">
+        <div class="container ">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-12 col-sm-12 col-12 mb-3" id="weatherShow"></div>
+                <div class="col-md-12 col-sm-12 col-12 mb-3">
+                    <form method="post" id="weatherForm" class=" py-2">
+                        <label for="state" class="form-label fw-bold text-dark display-6">Select State</label>
+                        <select name="state" id="state" class="form-control py-3" required>
+                            <option value="">Select Your State</option>
+                        </select>
+                        <button class="btn btn-success px-5 py-2 mt-3 d-flex m-auto" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/index.js" type="module"></script>
+    <!-- BOOTSTRAP 5 SCRIPT LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
